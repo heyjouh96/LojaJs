@@ -7,20 +7,10 @@
         
         <meta charset="UTF-8">
         
-        <!--<link href="css/estilo.css" type="text/css" rel="stylesheet">-->
+        <link href="css/estilo.css" type="text/css" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" type="text/css" />
-        <style type="text/css">
-            
-            .produtos{
-                margin-bottom:13px;
-            }
-            
-            .produtos img{
-                width: 100%;
-                height: 150px;
-            }
-        </style>
+
     </head>
     <body>
 
@@ -29,8 +19,42 @@
         
             <div class="row">
                 
-                <aside class="col-lg-3 col-md-3"> 
-                    <p>Carrinho</p> 
+                <aside class="col-lg-3 col-md-3">
+                    <h2>Carrinho</h2>
+                    <table class="table table-striped tbcarrinho">
+                        <thead>
+                            <tr>
+                                <td>#</td>
+                                <td>PRODUTO</td>
+                                <td>R$</td> 
+                            </tr>
+                        </thead>
+                        
+                        <tfoot>
+                            <tr>
+                              <th colspan="2">Total</th>
+                              <th>429,99</th>
+                            </tr>
+                         </tfoot>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>The Last of Us 2</td>
+                                <td>199,99</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Outlast 2</td>
+                                <td>150,00</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Zelda: O carinha of time</td>
+                                <td>80,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
                 </aside>
                 
                 <main class="col-lg-9 col-md-9">
@@ -67,77 +91,73 @@
                         
                     </form>
                     <br>
+                    
                     <div class="row">
                         
-                        <div class="col-lg-4 col-xs-6 produtos">
+                        <div class="col-lg-4 col-xs-6 clearfix produtos">
                             <img src="img/sd.jpg" class="img-responsive">
-                            <p>Produto nome</p>
+                            <p>Produto nome<br> <small>PS4</small></p>
                             <button class="btn btn-success glyphicon glyphicon-shopping-cart" style="float: right"></button>
                             <p><b>R$ 150,00</b><br><small>3x de R$ 50,00</small></p>
                         </div>        
                     
                         
-                        <div class="col-lg-4 col-xs-6 produtos">
+                        <div class="col-lg-4 col-xs-6 clearfix produtos">
                             <img src="img/sd.jpg" class="img-responsive">
-                            <p>Produto nome</p>
-                            <button class="btn btn-success glyphicon glyphicon-shopping-cart" style="float: right"></button>
-                            <p><b>R$ 150,00</b><br><small>3x de R$ 50,00</small></p>
-                        </div>                    
-                    
-                        
-                        <div class="col-lg-4 col-xs-6 produtos">
-                            <img src="img/sd.jpg" class="img-responsive">
-                            <p>Produto nome</p>
-                            <button class="btn btn-success glyphicon glyphicon-shopping-cart" style="float: right"></button>
-                            <p><b>R$ 150,00</b><br><small>3x de R$ 50,00</small></p>
-                        </div>
-                    
-                        
-                        <div class="col-lg-4 col-xs-6 produtos">
-                            <img src="img/sd.jpg" class="img-responsive">
-                            <p>Produto nome</p>
-                            <button class="btn btn-success glyphicon glyphicon-shopping-cart" style="float: right"></button>
-                            <p><b>R$ 150,00</b><br><small>3x de R$ 50,00</small></p>
-                        </div>
-                    
-                        
-                        <div class="col-lg-4 col-xs-6 produtos">
-                            <img src="img/sd.jpg" class="img-responsive">
-                            <p>Produto nome</p>
-                            <button class="btn btn-success glyphicon glyphicon-shopping-cart" style="float: right"></button>
-                            <p><b>R$ 150,00</b><br><small>3x de R$ 50,00</small></p>
-                        </div>
-                    
-                        
-                        <div class="col-lg-4 col-xs-6 produtos">
-                            <img src="img/sd.jpg" class="img-responsive">
-                            <p>Produto nome</p>
-                            <button class="btn btn-success glyphicon glyphicon-shopping-cart" style="float: right"></button>
-                            <p><b>R$ 150,00</b><br><small>3x de R$ 50,00</small></p>
-                        </div>
-                    
-                        
-                        <div class="col-lg-4 col-xs-6 produtos">
-                            <img src="img/sd.jpg" class="img-responsive">
-                            <p>Produto nome</p>
+                            <p>Produto nome<br> <small>PS4</small></p>
                             <button class="btn btn-success glyphicon glyphicon-shopping-cart" style="float: right"></button>
                             <p><b>R$ 150,00</b><br><small>3x de R$ 50,00</small></p>
                         </div>
                         
+                        <div class="col-lg-4 col-xs-6 clearfix produtos">
+                            <img src="img/sd.jpg" class="img-responsive">
+                            <p>Produto nome<br> <small>PS4</small></p>
+                            <button class="btn btn-success glyphicon glyphicon-shopping-cart" style="float: right"></button>
+                            <p><b>R$ 150,00</b><br><small>3x de R$ 50,00</small></p>
+                        </div>
                         
-                        <div class="col-lg-4 col-xs-6 produtos">
+                        <div class="col-lg-4 col-xs-6 clearfix produtos">
                             <img src="img/sd.jpg" class="img-responsive">
-                            <p>Produto nome</p>
+                            <p>Produto nome<br> <small>PS4</small></p>
                             <button class="btn btn-success glyphicon glyphicon-shopping-cart" style="float: right"></button>
                             <p><b>R$ 150,00</b><br><small>3x de R$ 50,00</small></p>
                         </div>
-                    
-                        <div class="col-lg-4 col-xs-6 produtos">
+                        
+                        <div class="col-lg-4 col-xs-6 clearfix produtos">
                             <img src="img/sd.jpg" class="img-responsive">
-                            <p>Produto nome</p>
+                            <p>Produto nome<br> <small>PS4</small></p>
                             <button class="btn btn-success glyphicon glyphicon-shopping-cart" style="float: right"></button>
                             <p><b>R$ 150,00</b><br><small>3x de R$ 50,00</small></p>
                         </div>
+                        
+                        <div class="col-lg-4 col-xs-6 clearfix produtos">
+                            <img src="img/sd.jpg" class="img-responsive">
+                            <p>Produto nome<br> <small>PS4</small></p>
+                            <button class="btn btn-success glyphicon glyphicon-shopping-cart" style="float: right"></button>
+                            <p><b>R$ 150,00</b><br><small>3x de R$ 50,00</small></p>
+                        </div>
+                        
+                        <div class="col-lg-4 col-xs-6 clearfix produtos">
+                            <img src="img/sd.jpg" class="img-responsive">
+                            <p>Produto nome<br> <small>PS4</small></p>
+                            <button class="btn btn-success glyphicon glyphicon-shopping-cart" style="float: right"></button>
+                            <p><b>R$ 150,00</b><br><small>3x de R$ 50,00</small></p>
+                        </div>
+                        
+                        <div class="col-lg-4 col-xs-6 clearfix produtos">
+                            <img src="img/sd.jpg" class="img-responsive">
+                            <p>Produto nome<br> <small>PS4</small></p>
+                            <button class="btn btn-success glyphicon glyphicon-shopping-cart" style="float: right"></button>
+                            <p><b>R$ 150,00</b><br><small>3x de R$ 50,00</small></p>
+                        </div>
+                        
+                        <div class="col-lg-4 col-xs-6 clearfix produtos">
+                            <img src="img/sd.jpg" class="img-responsive">
+                            <p>Produto nome<br> <small>PS4</small></p>
+                            <button class="btn btn-success glyphicon glyphicon-shopping-cart" style="float: right"></button>
+                            <p><b>R$ 150,00</b><br><small>3x de R$ 50,00</small></p>
+                        </div>
+                        
                     
                     </div>
                     
