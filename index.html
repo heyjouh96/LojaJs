@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <html lang="pt-br">
+        
+    <head>
+        <title>Loja-JS</title>
+        
+        <meta charset="UTF-8">
+        
+        <!--<link href="css/estilo.css" type="text/css" rel="stylesheet">-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" type="text/css" />
+        <style type="text/css">
+            
+            .produtos{
+                margin-bottom:13px;
+            }
+            
+            .produtos img{
+                width: 100%;
+                height: 150px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="container-fluid">
+            <h1>Loja-JS</h1>
+        
+            <div class="row">
+                
+                <aside class="col-lg-3 col-md-3"> 
+                    <p>Carrinho</p> 
+                </aside>
+                
+                <main class="col-lg-9 col-md-9">
+                    
+                    <form class="form-control">
+                        Filtro:
+                        <div class="radio-inline">
+                            <label>
+                                <input type="radio" name="console" id="todos" onclick="filtrar(this.id)"/>Todos
+                            </label>
+                        </div>
+                        
+                        <div class="radio-inline">
+                            <label>
+                                <input type="radio" name="console" id="ps4" onclick="filtrar(this.id)"/>PS4
+                            </label>
+                        </div>
+                        
+                        <div class="radio-inline">
+                            <label>
+                                <input type="radio" name="console" id="xbox" onclick="filtrar(this.id)"/>XboxOne
+                            </label>
+                        </div>
+                        <div class="radio-inline">
+                            <label>
+                                <input type="radio" name="console" id="switch" onclick="filtrar(this.id)"/>Switch
+                            </label>
+                        </div>
+                        <div class="radio-inline">
+                            <label>
+                                <input type="radio" name="console" id="3ds" onclick="filtrar(this.id)"/>3DS
+                            </label>
+                        </div>
+                        
+                    </form>
+                    <br>
+                    <div class="row">
+                        
+                        <div class="col-lg-4 col-xs-6 produtos">
+                            <img src="img/sd.jpg" class="img-responsive">
+                            <p>Produto nome</p>
+                            <button class="btn btn-success glyphicon glyphicon-shopping-cart" style="float: right"></button>
+                            <p><b>R$ 150,00</b><br><small>3x de R$ 50,00</small></p>
+                        </div>        
+                    
+                        
+                        <div class="col-lg-4 col-xs-6 produtos">
+                            <img src="img/sd.jpg" class="img-responsive">
+                            <p>Produto nome</p>
+                            <button class="btn btn-success glyphicon glyphicon-shopping-cart" style="float: right"></button>
+                            <p><b>R$ 150,00</b><br><small>3x de R$ 50,00</small></p>
+                        </div>                    
+                    
+                        
+                        <div class="col-lg-4 col-xs-6 produtos">
+                            <img src="img/sd.jpg" class="img-responsive">
+                            <p>Produto nome</p>
+                            <button class="btn btn-success glyphicon glyphicon-shopping-cart" style="float: right"></button>
+                            <p><b>R$ 150,00</b><br><small>3x de R$ 50,00</small></p>
+                        </div>
+                    
+                        
+                        <div class="col-lg-4 col-xs-6 produtos">
+                            <img src="img/sd.jpg" class="img-responsive">
+                            <p>Produto nome</p>
+                            <button class="btn btn-success glyphicon glyphicon-shopping-cart" style="float: right"></button>
+                            <p><b>R$ 150,00</b><br><small>3x de R$ 50,00</small></p>
+                        </div>
+                    
+                        
+                        <div class="col-lg-4 col-xs-6 produtos">
+                            <img src="img/sd.jpg" class="img-responsive">
+                            <p>Produto nome</p>
+                            <button class="btn btn-success glyphicon glyphicon-shopping-cart" style="float: right"></button>
+                            <p><b>R$ 150,00</b><br><small>3x de R$ 50,00</small></p>
+                        </div>
+                    
+                        
+                        <div class="col-lg-4 col-xs-6 produtos">
+                            <img src="img/sd.jpg" class="img-responsive">
+                            <p>Produto nome</p>
+                            <button class="btn btn-success glyphicon glyphicon-shopping-cart" style="float: right"></button>
+                            <p><b>R$ 150,00</b><br><small>3x de R$ 50,00</small></p>
+                        </div>
+                    
+                        
+                        <div class="col-lg-4 col-xs-6 produtos">
+                            <img src="img/sd.jpg" class="img-responsive">
+                            <p>Produto nome</p>
+                            <button class="btn btn-success glyphicon glyphicon-shopping-cart" style="float: right"></button>
+                            <p><b>R$ 150,00</b><br><small>3x de R$ 50,00</small></p>
+                        </div>
+                        
+                        
+                        <div class="col-lg-4 col-xs-6 produtos">
+                            <img src="img/sd.jpg" class="img-responsive">
+                            <p>Produto nome</p>
+                            <button class="btn btn-success glyphicon glyphicon-shopping-cart" style="float: right"></button>
+                            <p><b>R$ 150,00</b><br><small>3x de R$ 50,00</small></p>
+                        </div>
+                    
+                        <div class="col-lg-4 col-xs-6 produtos">
+                            <img src="img/sd.jpg" class="img-responsive">
+                            <p>Produto nome</p>
+                            <button class="btn btn-success glyphicon glyphicon-shopping-cart" style="float: right"></button>
+                            <p><b>R$ 150,00</b><br><small>3x de R$ 50,00</small></p>
+                        </div>
+                    
+                    </div>
+                    
+                </main>
+                
+            </div>
+            
+        </div>
+    </body>
+</html>
